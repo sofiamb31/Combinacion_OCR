@@ -181,7 +181,7 @@ with st.sidebar:
 st.markdown("""
     <style>
         .stApp {
-            background-color: #FF007F ;
+            background-color: #FFC1D5 ;
         }
     </style>
 """, unsafe_allow_html=True)
