@@ -43,8 +43,8 @@ remove_files(7)
 
 
 
-st.title("Reconocimiento Óptico de Caracteres")
-st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
+st.title("Reconocimiento Óptico de Caracteres con traducción")
+st.subheader("Elige una imágen, puedes tomar una foto con tu cámara o elegir una foto de tus archivos")
 
 cam_ = st.checkbox("Usar Cámara")
 
@@ -101,7 +101,7 @@ with st.sidebar:
       
       #text = st.text_input("Enter text")
       in_lang = st.selectbox(
-          "Seleccione el lenguaje de entrada",
+          "Selecciona el idioma que contiene la foto que ingresaste",
           ("Ingles", "Español", "Bengali", "koreano", "Mandarin", "Japones"),
       )
       if in_lang == "Ingles":
@@ -118,7 +118,7 @@ with st.sidebar:
           input_language = "ja"
       
       out_lang = st.selectbox(
-          "Select your output language",
+          "Selecciona el idioma al que quieres traducir",
           ("Ingles", "Español", "Bengali", "koreano", "Mandarin", "Japones"),
       )
       if out_lang == "Ingles":
