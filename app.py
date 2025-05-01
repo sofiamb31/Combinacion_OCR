@@ -183,9 +183,7 @@ st.markdown("""
     <style>
         body {
             background-color: #FF007F; /
-        }
-        .stApp {
-            background-color: #ADD8E6; /
+        
         }
     </style>
     """, unsafe_allow_html=True)
