@@ -179,7 +179,16 @@ with st.sidebar:
               st.markdown(f"## Texto de salida:")
               st.write(f" {output_text}")
 
-
+st.markdown("""
+    <style>
+        body {
+            background-color: #FF007F; /
+        }
+        .stApp {
+            background-color: #ADD8E6; /
+        }
+    </style>
+    """, unsafe_allow_html=True)
 
 
  
